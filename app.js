@@ -1,6 +1,6 @@
 // Task 01
 
-let number = (1,2,3,4,5,6,7,8,9,88,42)
+let number = [1,2,3,4,5,6,7,8,9,88,42]
 
 function Getevenadded (number){
     let sum = 0;
@@ -9,7 +9,7 @@ function Getevenadded (number){
     for (let i = 0; i < number.length; i++) {
         
         if(number[i] % 2 === 0)
-        sum = number[i]
+        sum += number[i]
         
 
 
@@ -43,7 +43,7 @@ for (let i = 1; i <= 100; i++) {
 
 //   Task 04
 
-let alpha = ("a","c","i","b","d","h","f","e")
+let alpha = ["a","c","i","b","d","h","f","e"]
 
 alpha.sort();
     
