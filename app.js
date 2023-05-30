@@ -55,25 +55,7 @@ alpha.sort();
 
 
 
-// function carmodel1(Carmodel) {
- 
-//   for (let car in Carmodel) {
-//     if (carmodel.hasOwnProperty(Carmodel, car)) {
-//       console.log(car+ ":" + Carmodel[car])
-      
-//     }
-//   }
-  
-// }
 
-// let Carmodel ={
-//   make : "Toyota",
-//   Model : "Supra",
-//   year : 2009,
-//   price : 10000000
-// }
-
-// carmodel1(Carmodel);
   
 function displayCarInfo(car) {
   for (let property in car) {
