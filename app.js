@@ -9,7 +9,7 @@ function Getevenadded (number){
     for (let i = 0; i < number.length; i++) {
         
         if(number[i] % 2 === 0)
-        sum = number[i]
+        sum += number[i]
         
 
 
